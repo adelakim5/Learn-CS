@@ -44,7 +44,7 @@ head = ListNode {
    current = ListNode {
                    val: 1
                    next: ListNode {
-                       val: 2
+                       val: 2 // <= current의 next에 3번째에 있던 2를 가져옴
                        next: ListNode {
                            val: 3
                            next: ListNode {
