@@ -25,13 +25,30 @@
 2. 합한 sum은 차례로 ListNode에 붙인다.
 
 ```js
-let answer = new ListNode();
-// answer = ListNode {
+let answer = new ListNode(); // 답으로 제출할 ListNode 생성
+let current = answer; // current에 위임
+// current = ListNode {
 //               val: 0
 //              next: null
 //          }
-answer.next = sum;
-answer = answer.next; // 계속 뒤이어 붙여주기 위해 이동
+
+current.next = sum;
+// current = ListNode {
+//               val: 0
+//               next: ListNode {
+//                        val: sum <= current 다음에 연결
+//                        next: null
+//                }
+//          }
+
+current = current.next; // 계속 뒤이어 붙여주기 위해 이동
+// ListNode {
+//     val: 0
+//     next: ListNode { <= current
+//              val: sum
+//              next: null
+//      }
+//}
 ```
 
 3. l1와 l2의 노드가 모두 null이면 계산 과정을 종료한다.
