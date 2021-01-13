@@ -1,6 +1,6 @@
 ## 1. Two Sum
 
-> leetcode
+> leetcode [1](https://leetcode.com/problems/two-sum/)
 
 - 배열 내 두 수를 골라 더한 값이 target인 두 수의 인덱스를 반환한다.
 
