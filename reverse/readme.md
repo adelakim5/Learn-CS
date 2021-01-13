@@ -1,6 +1,6 @@
 ## 7. Reverse Integer
 
-> leetCode
+> leetCode [7](https://leetcode.com/problems/reverse-integer/)
 
 ### 풀이
 
