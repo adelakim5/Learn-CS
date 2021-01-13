@@ -1,6 +1,6 @@
 ## 83. Remove Duplicates from Sorted List
 
-> leetCode
+> leetCode [83](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 
 ### 풀이
 
